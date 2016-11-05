@@ -6,6 +6,7 @@
 - [FIXED] Issue with query generation in MSSQL, an identifier was not escaped [#6686] (https://github.com/sequelize/sequelize/pull/6686)
 - [FIXED] GroupedLimit when foreignKey has a field alias
 - [FIXED] groupedLimit.through.where support
+- [FIXED] `Increment` / `Decrement` properly maps to timestamp fields [#6296](https://github.com/sequelize/sequelize/issues/6296)
 
 ## BC breaks:
 - `DATEONLY` now returns string in `YYYY-MM-DD` format rather than `Date` type
