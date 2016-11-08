@@ -545,6 +545,7 @@ For more about validation, see http://docs.sequelizejs.com/en/latest/docs/models
 | [options.schema='public'] | String |  |
 | [options.engine] | String |  |
 | [options.charset] | String |  |
+| [options.format] | String |  Specify the ROW_FORMAT for use with the MySQL InnoDB engine. |
 | [options.comment] | String |  |
 | [options.collate] | String |  |
 | [options.initialAutoIncrement] | String | Set the initial AUTO_INCREMENT value for the table in MySQL. |

@@ -1,6 +1,7 @@
 # Future
 - [FIXED] `restore` now uses `field` from `deletedAt`
 - [ADDED] `option.silent` for increment and decrement [#6793](https://github.com/sequelize/sequelize/pull/6793)
+- [ADDED] `options.format` added to Query Generator for MySQL dialect using InnoDB engines.
 
 # 3.24.7
 - [FIXED] MSSQL bulkInsertQuery when options and attributes are not passed [#6782]
